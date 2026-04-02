@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  display: grid;
+  grid-template-rows: 1fr auto;
   width: 100%;
   min-height: 100vh;
   background: var(--black);
@@ -88,4 +90,39 @@ a {
   display: block;
   font-size: min(calc(12vw / 3.9), 12px);
   line-height: 1.4;
+}
+
+.copyright {
+  padding: 5px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/* privacy policy */
+.policy {
+  text-align: left;
+}
+.policy_title {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.policy_detail {
+  margin-bottom: 32px;
+}
+.policy_listTitle {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+.policy_listDetail_text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--moonWhite);
+}
+.contact_title {
+  margin-bottom: 10px;
 }
