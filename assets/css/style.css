@@ -11,7 +11,7 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr auto auto;
   width: 100%;
   min-height: 100vh;
   background: var(--black);
@@ -92,9 +92,17 @@ a {
   line-height: 1.4;
 }
 
+.policy_link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
 .copyright {
-  padding: 5px 0;
-  font-size: 12px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
   text-align: center;
 }
 
